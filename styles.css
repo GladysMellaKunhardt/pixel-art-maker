@@ -1,0 +1,87 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    padding: 20px;
+    width: 280px;
+    background-color: #eee;
+}
+
+.sidebar h1 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.sidebar h4 {
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #333;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/*  Fields */
+.sidebar label, .sidebar input {
+    display: block;
+}
+
+.sidebar label {
+    margin-bottom: 6px;
+}
+
+.sidebar input {
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.sidebar input[type="submit"] {
+    border: 1px solid #ccc;
+    background-color: white;
+    display: block;
+    padding: 12px;
+}
+
+.sidebar input[type="color"] {
+    border: 1px solid #ccc;
+    background-color: white;
+    display: block;
+    height: 32px;
+}
+
+/* Content */
+.content {
+    padding: 20px;
+}
+
+/* Table */
+table,
+tr,
+td {
+    border: 1px solid #b5b5b5;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 18px;
+}
+
+td {
+    width: 18px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pixel Art Maker</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h1>Pixel Art Maker</h1>
+
+        <h4>Canvas size</h4>
+        <form id="size-picker">
+            <label id="height">Height</span>
+            <input type="number" id="field-height" name="height" min="1" value="20" required>
+
+            <label id="width">Width</span>
+            <input type="number" id="field-width" name="width" min="1" value="20" required>
+
+            <input type="submit">
+        </form>
+
+        <h4>Pick A Color</h4>
+        <input type="color" id="color-picker">
+    </div>
+
+    <div class="content">
+        <table id="canvas"></table>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
